@@ -23,3 +23,8 @@ Storefront Assistant will automatically request permissions to access the Media 
 
 If you want to either play Apple Music or save an Apple Music track to the user's media library, you will need to know which country they are in so you can find the relevant track identifier via the [iTunes Search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/). The only way to know which country the logged in user's Apple Music account is with is to use the `SKCloudServiceController` method `requestStorefrontIdentifierWithCompletionHandler:` which will give you an identifier to match up to the store. Using this class, you can do a simple compare against the list which was parsed from [Apple's iTunes Affliate Links website](https://affiliate.itunes.apple.com/resources/documentation/linking-to-the-itunes-music-store/).
 
+## Learn more
+
+- [iOS 9.3 Music Library Additions](https://bendodson.com/weblog/2016/02/23/details-on-ios-9-3-media-library-additions/)
+- [Introducing Storefront Assistant](https://bendodson.com/weblog/2016/02/26/storefront-additions-skcloudservicecontroller-to-country-code/)
+- [Your iOS Music Library is a security and privacy risk](https://bendodson.com/weblog/2016/01/13/your-music-library-is-a-security-and-privacy-risk-on-ios/)
