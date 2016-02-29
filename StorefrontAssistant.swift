@@ -26,7 +26,7 @@ class StorefrontAssistant: NSObject {
                     return
                 }
                 
-                guard let identifier = identifier?.componentsSeparatedByString(",").first else {
+                guard let identifier = identifier?.componentsSeparatedByString(",").first?.componentsSeparatedByString("-").first else {
                     completionHandler(countryCode: nil, error: NSError(domain: "SKCloudServiceController", code: 404, userInfo: [NSLocalizedDescriptionKey: "No identifier returned from SKCloudServiceController"]))
                     return
                 }
