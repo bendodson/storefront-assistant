@@ -28,3 +28,7 @@ If you want to either play Apple Music or save an Apple Music track to the user'
 - [iOS 9.3 Music Library Additions](https://bendodson.com/weblog/2016/02/23/details-on-ios-9-3-media-library-additions/)
 - [Introducing Storefront Assistant](https://bendodson.com/weblog/2016/02/26/storefront-additions-skcloudservicecontroller-to-country-code/)
 - [Your iOS Music Library is a security and privacy risk](https://bendodson.com/weblog/2016/01/13/your-music-library-is-a-security-and-privacy-risk-on-ios/)
+
+## JSON Implementation
+
+[Loreto Parisi](https://twitter.com/loretoparisi) has [put together some code](https://github.com/loretoparisi/itunes-countrycode-node) in order to provide the plist file as a JSON; he also has a [Node JS implementation](https://github.com/loretoparisi/itunes-countrycode-node) to scrape this information regularly from the iTunes Affiliate Link Website. The StorefrontAssistant class could be easily converted to use this JSON file or you may want to convert his scraper to export to plist.
